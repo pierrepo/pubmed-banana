@@ -1,0 +1,20 @@
+name: pubmed-banana
+# channels priority
+# see https://bioconda.github.io/
+# conda-forge has highest priority
+channels:
+    - defaults
+    - bioconda
+    - conda-forge
+dependencies:
+    - python=3.10
+    - pip
+    - jupyterlab=3
+    - jupyterlab_execute_time
+    - scipy
+    - pandas
+    - matplotlib
+    - requests
+    - tqdm
+    - pip:
+        - watermark
